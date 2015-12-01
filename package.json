@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-dialexa",
+  "version": "1.0.0",
+  "description": "Dialexa's ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config-dialexa"
+  ],
+  "author": "Ehis Ojielu <ehis@dialexa.com>",
+  "license": "ISC"
+}
