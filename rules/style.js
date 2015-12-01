@@ -1,3 +1,5 @@
+// see http://eslint.org/docs/rules/#stylistic-issues
+
 module.exports = {
   'rules': {
     // enforce spacing inside array brackets

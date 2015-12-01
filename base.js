@@ -1,4 +1,4 @@
-'use strict';
+// Extends individual components
 
 module.exports = {
   'extends': [

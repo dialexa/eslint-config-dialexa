@@ -1,7 +1,8 @@
-'use strict';
+// Eslint-config-dialexa
+// More on eslint rules http://eslint.org/docs/rules/
 
 module.exports = {
-  'extend': [
-
+  'extends': [
+    'eslint-config-dialexa/base'
   ]
-}
+};

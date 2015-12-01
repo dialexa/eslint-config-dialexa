@@ -1,3 +1,5 @@
+// see http://eslint.org/docs/rules/#possible-errors
+
 module.exports = {
   'rules': {
     // disallow trailing commas in object literals
