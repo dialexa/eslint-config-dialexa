@@ -4,7 +4,6 @@ module.exports = {
   'env': {
     'es6': true
   },
-
   'rules': {
     // Require parens in arrow function arguments
     'arrow-parens': [1, 'always'],

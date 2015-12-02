@@ -1,14 +1,34 @@
 {
   "name": "eslint-config-dialexa",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "lodash.merge": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.3"
+  },
   "keywords": [
-    "eslint-config-dialexa"
+    "eslint-config-dialexa",
+    "eslint",
+    "dialexa",
+    "style-guide"
   ],
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/dialexa/eslint-config-dialexa.git"
+   },
+   "bugs": {
+    "url": "https://github.com/dialexa/eslint-config-dialexa/issues"
+   },
+  "homepage": "https://github.com/dialexa/eslint-config-dialexa",
   "author": "Ehis Ojielu <ehis@dialexa.com>",
   "license": "ISC"
 }

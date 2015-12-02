@@ -1,16 +1,14 @@
 // Extends individual components
+var merge = require('lodash.merge');
 
-module.exports = {
-  'extends': [
-    'eslint-config-dialexa/rules/best-practices',
-    'eslint-config-dialexa/rules/errors',
-    'eslint-config-dialexa/rules/node',
-    'eslint-config-dialexa/rules/style',
-    'eslint-config-dialexa/rules/variables',
-    'eslint-config-dialexa/rules/es6'
-  ],
-  'env': {
-    'node': true,
-    'mocha': true
-  }
-};
+module.exports = merge({},
+  require('./rules/best_practices'),
+  require('./rules/errors'),
+  require('./rules/node'),
+  require('./rules/style'),
+  require('./rules/variables'),
+  {
+    'env': {
+      'mocha': true
+    }
+  });

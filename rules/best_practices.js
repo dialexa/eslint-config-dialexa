@@ -103,8 +103,8 @@ module.exports = {
     'no-warning-comments': [0, { 'terms': ['todo', 'fixme', 'xxx'], 'location': 'start' }],
     // disallow use of the with statement
     'no-with': 2,
-    // require use of the second argument for parseInt()
-    'radix': 2,
+    // optional use of the second argument for parseInt()
+    'radix': 0,
     // requires to declare all vars on top of their containing scope
     'vars-on-top': 2,
     // require immediate function invocation to be wrapped in parentheses

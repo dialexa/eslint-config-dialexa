@@ -18,8 +18,8 @@ module.exports = {
     'consistent-this': 0,
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 2,
-    // require function expressions to have a name
-    'func-names': 1,
+    // disable function expressions to have a name
+    'func-names': 0,
     // enforces use of function declarations or expressions
     'func-style': 0,
     // this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
