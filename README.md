@@ -3,6 +3,7 @@
 ## How To Use
 
 ```
+    npm install eslint --save-dev
     npm install eslint-config-dialexa --save-dev
 ```
 
