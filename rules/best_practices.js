@@ -105,8 +105,8 @@ module.exports = {
     'no-with': 2,
     // optional use of the second argument for parseInt()
     'radix': 0,
-    // requires to declare all vars on top of their containing scope
-    'vars-on-top': 2,
+    // vars to be declared as needed
+    'vars-on-top': 0,
     // require immediate function invocation to be wrapped in parentheses
     'wrap-iife': [2, 'any'],
     // require or disallow Yoda conditions

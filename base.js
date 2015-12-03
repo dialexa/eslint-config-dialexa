@@ -9,6 +9,7 @@ module.exports = merge({},
   require('./rules/variables'),
   {
     'env': {
-      'mocha': true
+      'mocha': true,
+      'browser': true
     }
   });
