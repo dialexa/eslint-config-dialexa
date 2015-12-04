@@ -15,10 +15,17 @@
     }
 ```
 
-### Ecmascript 6 Support
+### ES6
 
 ```
     {
         extends: 'dialexa/es6'
+    }
+```
+
+### Ember
+```
+    {
+        extends: 'dialexa/ember'
     }
 ```
