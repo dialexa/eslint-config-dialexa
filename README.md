@@ -11,7 +11,7 @@
 
 ```
     {
-        extends: 'dialexa'
+        "extends": "dialexa"
     }
 ```
 
@@ -19,13 +19,13 @@
 
 ```
     {
-        extends: 'dialexa/es6'
+        "extends": "dialexa/es6"
     }
 ```
 
 ### Ember
 ```
     {
-        extends: 'dialexa/ember'
+        "extends": "dialexa/ember"
     }
 ```
