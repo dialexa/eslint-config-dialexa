@@ -8,8 +8,8 @@ module.exports = merge({},
     require('./rules/style'),
     require('./rules/variables'),
     {
-      'env': {
-        'mocha': true,
-        'browser': true
-      }
+        'env': {
+            'mocha': true,
+            'browser': true
+        }
     });

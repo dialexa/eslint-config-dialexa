@@ -10,10 +10,12 @@
     "lodash.merge": "^3.3.2"
   },
   "devDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.6"
   },
   "peerDependencies": {
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.6"
   },
   "keywords": [
     "eslint-config-dialexa",
