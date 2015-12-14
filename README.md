@@ -19,7 +19,7 @@
 
 ```
     {
-        "extends": "dialexa/es6"
+        "extends": "dialexa/node-es6"
     }
 ```
 
@@ -27,5 +27,12 @@
 ```
     {
         "extends": "dialexa/ember"
+    }
+```
+
+### React
+```
+    {
+        "extends": "dialexa/react"
     }
 ```
