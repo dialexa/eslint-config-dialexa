@@ -13,7 +13,7 @@ module.exports = {
     'func-names': 0,
     'func-style': 0,
     'id-length': 0,
-    'indent': [2, 2],
+    'indent': [2, 2, {"SwitchCase": 1}],
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     'lines-around-comment': 0,
     'linebreak-style': 0,

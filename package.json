@@ -10,12 +10,14 @@
     "lodash.merge": "^3.3.2"
   },
   "devDependencies": {
+    "babel-eslint": "^4.1.6",
     "eslint": "^1.10.3",
-    "babel-eslint": "^4.1.6"
+    "eslint-plugin-react": "^3.11.3"
   },
   "peerDependencies": {
     "eslint": "^1.10.3",
-    "babel-eslint": "^4.1.6"
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-react": "^3.11.3"
   },
   "keywords": [
     "eslint-config-dialexa",
@@ -24,12 +26,12 @@
     "style-guide"
   ],
   "repository": {
-     "type": "git",
-     "url": "https://github.com/dialexa/eslint-config-dialexa.git"
-   },
-   "bugs": {
+    "type": "git",
+    "url": "https://github.com/dialexa/eslint-config-dialexa.git"
+  },
+  "bugs": {
     "url": "https://github.com/dialexa/eslint-config-dialexa/issues"
-   },
+  },
   "homepage": "https://github.com/dialexa/eslint-config-dialexa",
   "author": "Ehis Ojielu <ehis@dialexa.com>",
   "license": "ISC"
