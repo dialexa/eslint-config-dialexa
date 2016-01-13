@@ -1,38 +1,55 @@
-# Dialexa Javascript Style Guide
+Dialexa Javascript Style Guide
+---
 
-## How To Use
+# Installation
 
+### Local Development/Testing
+Since this package is not public yet, you must first [link](https://docs.npmjs.com/cli/link) it in order to include this module in your project.
+
+```sh
+# in the root directory of this package
+npm link
+
+# in the root directory of your project
+npm link eslint-config-dialexa
 ```
-    npm install eslint --save-dev
-    npm install eslint-config-dialexa --save-dev
+
+Lastly, make sure you have [eslint](http://eslint.org) installed in your project
+```sh
+npm install eslint --save-dev
 ```
 
-### .eslintrc
 
-```
-    {
-        "extends": "dialexa"
-    }
+# Usage
+
+Add one of the following to your project's `.eslintrc` file (based on your project type).
+
+### General
+
+```json
+{
+  "extends": "dialexa"
+}
 ```
 
 ### ES6
 
-```
-    {
-        "extends": "dialexa/node-es6"
-    }
+```json
+{
+  "extends": "dialexa/node-es6"
+}
 ```
 
 ### Ember
-```
-    {
-        "extends": "dialexa/ember"
-    }
+```json
+{
+  "extends": "dialexa/ember"
+}
 ```
 
 ### React
-```
-    {
-        "extends": "dialexa/react"
-    }
+```json
+{
+  "extends": "dialexa/react"
+}
 ```
