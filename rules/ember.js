@@ -3,5 +3,4 @@ module.exports = {
       'modules': true
   },
   'parser': 'babel-eslint'
-  }
 }
