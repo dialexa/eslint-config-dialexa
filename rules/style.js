@@ -18,7 +18,7 @@ module.exports = {
     'lines-around-comment': 0,
     'linebreak-style': 0,
     'max-nested-callbacks': 0,
-    'new-cap': [2, {'newIsCap': true}],
+    'new-cap': [2, {'newIsCap': true, 'capIsNew': false}],
     'new-parens': 0,
     'newline-after-var': 0,
     'no-array-constructor': 0,
