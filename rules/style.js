@@ -38,7 +38,7 @@ module.exports = {
     'one-var': [2, 'never'],
     'operator-assignment': 0,
     'operator-linebreak': 0,
-    'padded-blocks': [2, 'never'],
+    'padded-blocks': [1, 'never'],
     'quote-props': 0,
     'quotes': [2, 'single', 'avoid-escape'],
     'id-match': 0,
