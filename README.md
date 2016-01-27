@@ -3,18 +3,14 @@ Dialexa Javascript Style Guide
 
 # Installation
 
-### Local Development/Testing
-Since this package is not public yet, you must first [link](https://docs.npmjs.com/cli/link) it in order to include this module in your project.
+Since this package is not yet available on npm, you can use it by adding the line below to your package.json **devDependencies**
 
-```sh
-# in the root directory of this package
-npm link
-
-# in the root directory of your project
-npm link eslint-config-dialexa
+```json
+ "eslint-config-dialexa": "dialexa/eslint-config-dialexa"
 ```
 
 Lastly, make sure you have [eslint](http://eslint.org) installed in your project
+
 ```sh
 npm install eslint --save-dev
 ```
