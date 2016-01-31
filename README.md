@@ -20,7 +20,7 @@ npm install eslint --save-dev
 
 Add one of the following to your project's `.eslintrc` file (based on your project type).
 
-### General
+### ES5
 
 ```json
 {
@@ -28,7 +28,7 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
 }
 ```
 
-### ES6
+### Node 4 and greater 
 
 ```json
 {
