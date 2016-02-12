@@ -1,5 +1,5 @@
 {
-  "name": "@dialexa/eslint-config-dialexa",
+  "name": "@dialexa/eslint-config",
   "version": "0.1.0",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
@@ -21,17 +21,18 @@
   },
   "keywords": [
     "eslint-config-dialexa",
+    "eslint-config",
     "eslint",
     "dialexa",
     "style-guide"
   ],
   "repository": {
-    "url": "git+https://github.com/dialexa/eslint-config-dialexa.git"
+    "url": "git+https://github.com/dialexa/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/dialexa/eslint-config-dialexa/issues"
+    "url": "https://github.com/dialexa/eslint-config/issues"
   },
-  "homepage": "https://github.com/dialexa/eslint-config-dialexa",
+  "homepage": "https://github.com/dialexa/eslint-config",
   "author": "Dialexa",
   "contributors": [
     "Ehis Ojielu <ehis@dialexa.com> (https://github.com/ehis)",
