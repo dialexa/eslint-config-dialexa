@@ -4,7 +4,7 @@ Dialexa Javascript Style Guide
 # Installation
 
 ```
- npm install --save-dev @dialexa/eslint-config
+ npm install --save-dev @dialexa/eslint-config-dialexa
 ```
 
 Lastly, make sure you have [eslint](http://eslint.org) installed in your project
@@ -26,7 +26,15 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
 }
 ```
 
-### Node 4 and greater
+### ES6
+
+```json
+{
+  "extends": "dialexa/es6"
+}
+```
+
+### Node 4.x +
 
 ```json
 {
