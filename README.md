@@ -10,7 +10,9 @@ Dialexa Javascript Style Guide
 Lastly, make sure you have [eslint](http://eslint.org) installed in your project
 
 ```
-npm install eslint --save-dev
+npm install eslint@2.2.0 --save-dev
+npm install babel-eslint@5.0.0 --save-dev
+npm install eslint-plugin-react@4.0.0 --save-dev
 ```
 
 
