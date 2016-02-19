@@ -2,9 +2,11 @@ module.exports = {
   'plugins': [
     'react'
   ],
-  'ecmaFeatures': {
-    'jsx': true,
-    'modules': true
+  'parserOptions': {
+    ecmaFeatures: {
+     jsx: true
+    },
+    'sourceType': 'module'
   },
   'parser': 'babel-eslint',
   'rules': {

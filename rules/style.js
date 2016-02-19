@@ -45,13 +45,15 @@ module.exports = {
     'semi-spacing': [2, {'before': false, 'after': true}],
     'semi': [2, 'always'],
     'sort-vars': 0,
-    'space-before-keywords': [2, 'always'],
-    'space-after-keywords': [2, 'always'],
+    'keyword-spacing': [2, {
+      'before': true,
+      'after': true,
+      'overrides': {}
+    }],
     'space-before-blocks': 2,
     'space-before-function-paren': [2, 'always'],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
-    'space-return-throw-case': 2,
     'space-unary-ops': 0,
     'spaced-comment': [2, 'always', {
       'exceptions': ['-', '+'],
