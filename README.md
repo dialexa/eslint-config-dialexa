@@ -24,7 +24,7 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
 
 ```json
 {
-  "extends": "dialexa"
+  "extends": "@dialexa/eslint-config-dialexa"
 }
 ```
 
@@ -32,7 +32,7 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
 
 ```json
 {
-  "extends": "dialexa/es6"
+  "extends": "@dialexa/eslint-config-dialexa/es6"
 }
 ```
 
@@ -40,20 +40,20 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
 
 ```json
 {
-  "extends": "dialexa/node-es6"
+  "extends": "@dialexa/eslint-config-dialexa/node-es6"
 }
 ```
 
 ### Ember
 ```json
 {
-  "extends": "dialexa/ember"
+  "extends": "@dialexa/eslint-config-dialexa/ember"
 }
 ```
 
 ### React
 ```json
 {
-  "extends": "dialexa/react"
+  "extends": "@dialexa/eslint-config-dialexa/react"
 }
 ```
