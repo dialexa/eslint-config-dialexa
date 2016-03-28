@@ -1,6 +1,6 @@
 {
   "name": "@dialexa/eslint-config-dialexa",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
   "scripts": {
