@@ -7,15 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "lodash.merge": "~4.3.2"
+    "lodash.merge": "~4.5.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.0",
-    "eslint": "^2.5.1",
-    "eslint-plugin-react": "^4.2.3"
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.0",
+    "eslint-plugin-react": "^5.2.2"
   },
   "peerDependencies": {
-    "eslint": "^2.5.1"
+    "eslint": "^3.2.0"
   },
   "keywords": [
     "eslint-config-dialexa",
