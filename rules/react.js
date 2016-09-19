@@ -97,8 +97,6 @@ module.exports = {
 
     'react/react-in-jsx-scope': 'error',
 
-    'react/require-extension': ['error', { extensions: ['.jsx', '.js'] }],
-
     'react/require-render-return': 'error',
 
     'react/self-closing-comp': 'error',
