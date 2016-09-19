@@ -129,7 +129,7 @@ module.exports = {
 
     'react/jsx-no-target-blank': 'error',
 
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 
     'react/jsx-no-comment-textnodes': 'error',
 
