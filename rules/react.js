@@ -10,51 +10,101 @@ module.exports = {
   },
   'parser': 'babel-eslint',
   'rules': {
-    'react/display-name': [0, { 'ignoreTranspilerName': false }],
-    'react/forbid-prop-types': [0, { 'forbid': ['any', 'array', 'object'] }],
-    'react/jsx-boolean-value': [2, 'never'],
-    'react/jsx-closing-bracket-location': [2, 'line-aligned'],
-    'react/jsx-curly-spacing': [0, 'never', { 'allowMultiline': true }],
-    'react/jsx-handler-names': [0, {
-      'eventHandlerPrefix': 'handle',
-      'eventHandlerPropPrefix': 'on',
+    'jsx-quotes': ['error', 'prefer-double'],
+
+    'react/display-name': ['off', { ignoreTranspilerName: false }],
+
+    'react/forbid-prop-types': ['error', { forbid: ['any', 'array', 'object'] }],
+
+    'react/jsx-boolean-value': ['error', 'never'],
+
+    'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
+
+    'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
+
+    'react/jsx-handler-names': ['off', {
+      eventHandlerPrefix: 'handle',
+      eventHandlerPropPrefix: 'on',
     }],
-    'react/jsx-indent-props': [2, 2],
-    'react/jsx-key': 0,
-    'react/jsx-max-props-per-line': [0, { 'maximum': 1 }],
-    'react/jsx-no-bind': 2,
-    'react/jsx-no-duplicate-props': [0, { 'ignoreCase': false }],
-    'react/jsx-no-literals': 0,
-    'react/jsx-no-undef': 2,
-    'react/jsx-pascal-case': 0,
-    'react/sort-prop-types': [0, {
-      'ignoreCase': false,
-      'callbacksLast': false,
+
+    'react/jsx-indent-props': ['error', 2],
+
+    'react/jsx-key': 'off',
+
+    'react/jsx-max-props-per-line': ['off', { maximum: 1 }],
+
+    'react/jsx-no-bind': ['error', {
+      ignoreRefs: true,
+      allowArrowFunctions: true,
+      allowBind: false,
     }],
-    'react/jsx-sort-props': [0, {
-      'ignoreCase': false,
-      'callbacksLast': false,
+
+    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
+
+    'react/jsx-no-literals': 'off',
+
+    'react/jsx-no-undef': 'error',
+
+    'react/jsx-pascal-case': ['error', {
+      allowAllCaps: true,
+      ignore: [],
     }],
-    'react/jsx-uses-react': [2, { 'pragma': 'React' }],
-    'react/jsx-uses-vars': 2,
-    'react/no-danger': 0,
-    'react/no-deprecated': [1, { 'react': '0.14.0' }],
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
-    'react/no-direct-mutation-state': 0,
-    'react/no-is-mounted': 2,
-    'react/no-multi-comp': [2, { 'ignoreStateless': true }],
-    'react/no-set-state': 0,
-    'react/no-string-refs': 0,
-    'react/no-unknown-property': 2,
-    'react/prefer-es6-class': [2, 'always'],
-    'react/prop-types': [2, { 'ignore': [], 'customValidators': [] }],
-    'react/react-in-jsx-scope': 2,
-    'react/require-extension': [0, { 'extensions': ['.jsx'] }],
-    'react/self-closing-comp': 2,
-    'react/jsx-space-before-closing': [2, 'always'],
-    'react/sort-comp': [2, {
-      'order': [
+
+    'react/sort-prop-types': ['off', {
+      ignoreCase: true,
+      callbacksLast: false,
+      requiredFirst: false,
+    }],
+
+    'react/jsx-sort-prop-types': 'off',
+
+    'react/jsx-sort-props': ['off', {
+      ignoreCase: true,
+      callbacksLast: false,
+      shorthandFirst: false,
+      shorthandLast: false,
+    }],
+
+    'react/jsx-uses-react': ['error'],
+
+    'react/jsx-uses-vars': 'error',
+
+    'react/no-danger': 'warn',
+
+    'react/no-deprecated': ['error'],
+
+    'react/no-did-mount-set-state': ['error'],
+
+    'react/no-did-update-set-state': ['error'],
+
+    'react/no-direct-mutation-state': 'off',
+
+    'react/no-is-mounted': 'error',
+
+    'react/no-multi-comp': ['error', { ignoreStateless: true }],
+
+    'react/no-set-state': 'off',
+
+    'react/no-string-refs': 'error',
+
+    'react/no-unknown-property': 'error',
+
+    'react/prefer-es6-class': ['error', 'always'],
+
+    'react/prefer-stateless-function': 'error',
+
+    'react/prop-types': ['error', { ignore: [], customValidators: [] }],
+
+    'react/react-in-jsx-scope': 'error',
+
+    'react/require-render-return': 'error',
+
+    'react/self-closing-comp': 'error',
+
+    'react/jsx-space-before-closing': ['error', 'always'],
+
+    'react/sort-comp': ['error', {
+      order: [
         'static-methods',
         'lifecycle',
         '/^on.+$/',
@@ -62,12 +112,43 @@ module.exports = {
         'everything-else',
         '/^render.+$/',
         'render'
-      ]
+      ],
     }],
-    'react/wrap-multilines': [2, {
+
+    'react/jsx-wrap-multilines': ['error', {
       declaration: true,
       assignment: true,
       return: true
     }],
-  }
+
+    'react/jsx-first-prop-new-line': ['error', 'multiline'],
+
+    'react/jsx-equals-spacing': ['error', 'never'],
+
+    'react/jsx-indent': ['error', 2],
+
+    'react/jsx-no-target-blank': 'error',
+
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+
+    'react/jsx-no-comment-textnodes': 'error',
+
+    'react/no-render-return-value': 'error',
+
+    'react/require-optimization': ['off', { allowDecorators: [] }],
+
+    'react/no-find-dom-node': 'error',
+
+    'react/forbid-component-props': ['off', { forbid: [] }],
+
+    'react/no-danger-with-children': 'error',
+
+    'react/no-unused-prop-types': ['error', {
+      customValidators: [
+      ],
+      skipShapeProps: false,
+    }],
+
+    'react/style-prop-object': 'error',
+  },
 };

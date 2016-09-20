@@ -8,7 +8,7 @@ module.exports = {
     'arrow-parens': [1, 'always'],
     'arrow-spacing': [1, {before: true, after: true}],
     'constructor-super': 2,
-    'generator-star-spacing': [1, 'after'],
+    // 'generator-star-spacing': [1, 'after'], // https://github.com/eslint/eslint/issues/6274
     'no-class-assign': 1,
     'no-const-assign': 2,
     'no-dupe-class-members': 2,
