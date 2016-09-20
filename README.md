@@ -4,15 +4,13 @@ Dialexa Javascript Style Guide
 # Installation
 
 ```
- npm install --save-dev @dialexa/eslint-config-dialexa
+ npm install @dialexa/eslint-config-dialexa --save-dev
 ```
 
 Lastly, make sure you have [eslint](http://eslint.org) installed in your project
 
 ```
-npm install eslint@2.5.1 --save-dev
-npm install babel-eslint@6.0.0 --save-dev
-npm install eslint-plugin-react@4.2.3 --save-dev
+npm install eslint babel-eslint eslint-plugin-react --save-dev
 ```
 
 # Usage
