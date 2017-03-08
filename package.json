@@ -3,19 +3,16 @@
   "version": "3.3.1",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "lodash.merge": "~4.5.0"
+    "lodash.merge": "~4.6.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.2.0",
-    "eslint-plugin-react": "^5.2.2"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-plugin-react": "^6.1.0"
   },
   "peerDependencies": {
-    "eslint": "^3.2.0"
+    "eslint": "^3.17.1"
   },
   "keywords": [
     "eslint-config-dialexa",
@@ -34,7 +31,8 @@
   "author": "Dialexa",
   "contributors": [
     "Ehis Ojielu <ehis@dialexa.com> (https://github.com/ehis)",
-    "Andrew Turner <andrew@dialexa.com> (https://github.com/galenandrew)"
+    "Andrew Turner <andrew@dialexa.com> (https://github.com/galenandrew)",
+    "Luke Gordon <luke@dialexa.com> (https://github.com/gordysc)"
   ],
   "license": "ISC"
 }
