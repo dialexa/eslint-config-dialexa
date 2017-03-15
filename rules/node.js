@@ -12,6 +12,7 @@ module.exports = {
     'no-path-concat': 1,
     'no-process-exit': 0,
     'no-restricted-modules': 0,
-    'no-sync': 0
+    'no-sync': 0,
+    'require-await': 1
   }
 };
