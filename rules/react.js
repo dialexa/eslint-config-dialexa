@@ -10,15 +10,29 @@ module.exports = {
   },
   'parser': 'babel-eslint',
   'rules': {
-    'jsx-quotes': ['error', 'prefer-double'],
-
-    'react/display-name': ['off', { ignoreTranspilerName: false }],
+    'class-methods-use-this': ['error', {
+      exceptMethods: [
+        'render',
+        'getInitialState',
+        'getDefaultProps',
+        'getChildContext',
+        'componentWillMount',
+        'componentDidMount',
+        'componentWillReceiveProps',
+        'shouldComponentUpdate',
+        'componentWillUpdate',
+        'componentDidUpdate',
+        'componentWillUnmount',
+      ],
+    }],
 
     'react/forbid-prop-types': ['error', { forbid: ['any', 'array', 'object'] }],
 
-    'react/jsx-boolean-value': ['error', 'never'],
+    'react/jsx-boolean-value': ['error', 'never', { always: [] }],
 
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
+
+    'react/jsx-closing-tag-location': 'off',
 
     'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
 
@@ -31,7 +45,7 @@ module.exports = {
 
     'react/jsx-key': 'off',
 
-    'react/jsx-max-props-per-line': ['off', { maximum: 1 }],
+    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
 
     'react/jsx-no-bind': ['error', {
       ignoreRefs: true,
@@ -41,7 +55,7 @@ module.exports = {
 
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
 
-    'react/jsx-no-literals': 'off',
+    'react/jsx-no-literals': ['off', { noStrings: true }],
 
     'react/jsx-no-undef': 'error',
 
@@ -63,6 +77,8 @@ module.exports = {
       callbacksLast: false,
       shorthandFirst: false,
       shorthandLast: false,
+      noSortAlphabetically: false,
+      reservedFirst: true,
     }],
 
     'react/jsx-uses-react': ['error'],
@@ -101,7 +117,9 @@ module.exports = {
 
     'react/self-closing-comp': 'error',
 
-    'react/jsx-space-before-closing': ['error', 'always'],
+    "react/jsx-tag-spacing": [1, {
+      "beforeSelfClosing": "always"
+    }]
 
     'react/sort-comp': ['error', {
       order: [
@@ -118,10 +136,11 @@ module.exports = {
     'react/jsx-wrap-multilines': ['error', {
       declaration: true,
       assignment: true,
-      return: true
+      return: true,
+      arrow: true
     }],
 
-    'react/jsx-first-prop-new-line': ['error', 'multiline'],
+    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
 
     'react/jsx-equals-spacing': ['error', 'never'],
 
@@ -141,6 +160,8 @@ module.exports = {
 
     'react/forbid-component-props': ['off', { forbid: [] }],
 
+    'react/forbid-elements': ['off', { forbid: [], }],
+
     'react/no-danger-with-children': 'error',
 
     'react/no-unused-prop-types': ['error', {
@@ -150,5 +171,15 @@ module.exports = {
     }],
 
     'react/style-prop-object': 'error',
-  },
+
+    'react/no-unescaped-entities': 'error',
+
+    'react/no-children-prop': 'error',
+
+    'react/jsx-tag-spacing': ['error', {
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never'
+    }],
+  }
 };
