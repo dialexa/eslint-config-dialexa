@@ -20,6 +20,7 @@ module.exports = {
     'max-nested-callbacks': 0,
     'new-cap': [2, {'newIsCap': true, 'capIsNew': false}],
     'new-parens': 0,
+    'arrow-parens': [1, 'as-needed'],
     'newline-after-var': 0,
     'no-array-constructor': 0,
     'no-continue': 0,

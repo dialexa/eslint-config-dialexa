@@ -1,4 +1,4 @@
-// Exposes react rules
+// Exposes react-native rules
 
 var merge = require("lodash.merge");
 
