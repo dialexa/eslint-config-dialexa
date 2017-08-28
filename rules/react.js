@@ -119,7 +119,7 @@ module.exports = {
 
     "react/jsx-tag-spacing": [1, {
       "beforeSelfClosing": "always"
-    }]
+    }],
 
     'react/sort-comp': ['error', {
       order: [
