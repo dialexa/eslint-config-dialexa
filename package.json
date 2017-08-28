@@ -1,6 +1,6 @@
 {
   "name": "@dialexa/eslint-config-dialexa",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
   "dependencies": {
@@ -12,14 +12,18 @@
     "eslint-plugin-react": "^6.1.0"
   },
   "peerDependencies": {
-    "eslint": "^3.17.1"
+    "eslint": "^3.17.1 || ^4.4.1"
   },
   "keywords": [
     "eslint-config-dialexa",
     "eslint-config",
     "eslint",
     "dialexa",
-    "style-guide"
+    "style-guide",
+    "react",
+    "ember",
+    "react-native",
+    "node"
   ],
   "repository": {
     "url": "git+https://github.com/dialexa/eslint-config-dialexa.git"
