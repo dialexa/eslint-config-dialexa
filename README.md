@@ -60,10 +60,3 @@ Add one of the following to your project's `.eslintrc` file (based on your proje
   "extends": "@dialexa/eslint-config-dialexa/react"
 }
 ```
-
-### React-Native
-```json
-{
-  "extends": "@dialexa/eslint-config-dialexa/react-native"
-}
-```
