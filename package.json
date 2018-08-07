@@ -12,7 +12,7 @@
     "eslint-plugin-react": "~7.10.0"
   },
   "scripts": {
-    "test-lint": "eslint *.js"
+    "test-lint": "node_modules/.bin/eslint ."
   },
   "keywords": [
     "eslint-config-dialexa",
