@@ -14,6 +14,9 @@
   "scripts": {
     "test-lint": "node_modules/.bin/eslint ."
   },
+  "engines": {
+    "node": ">= 6.4"
+  },
   "keywords": [
     "eslint-config-dialexa",
     "eslint-config",
