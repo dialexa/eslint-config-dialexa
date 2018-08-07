@@ -4,7 +4,7 @@ module.exports = {
   ],
   'parserOptions': {
     ecmaFeatures: {
-     jsx: true
+      jsx: true
     },
     'sourceType': 'module'
   },
@@ -22,8 +22,8 @@ module.exports = {
         'shouldComponentUpdate',
         'componentWillUpdate',
         'componentDidUpdate',
-        'componentWillUnmount',
-      ],
+        'componentWillUnmount'
+      ]
     }],
 
     'react/forbid-prop-types': ['error', { forbid: ['any', 'array', 'object'] }],
@@ -38,7 +38,7 @@ module.exports = {
 
     'react/jsx-handler-names': ['off', {
       eventHandlerPrefix: 'handle',
-      eventHandlerPropPrefix: 'on',
+      eventHandlerPropPrefix: 'on'
     }],
 
     'react/jsx-indent-props': ['error', 2],
@@ -50,7 +50,7 @@ module.exports = {
     'react/jsx-no-bind': ['error', {
       ignoreRefs: true,
       allowArrowFunctions: true,
-      allowBind: false,
+      allowBind: false
     }],
 
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
@@ -61,13 +61,13 @@ module.exports = {
 
     'react/jsx-pascal-case': ['error', {
       allowAllCaps: true,
-      ignore: [],
+      ignore: []
     }],
 
     'react/sort-prop-types': ['off', {
       ignoreCase: true,
       callbacksLast: false,
-      requiredFirst: false,
+      requiredFirst: false
     }],
 
     'react/jsx-sort-prop-types': 'off',
@@ -78,7 +78,7 @@ module.exports = {
       shorthandFirst: false,
       shorthandLast: false,
       noSortAlphabetically: false,
-      reservedFirst: true,
+      reservedFirst: true
     }],
 
     'react/jsx-uses-react': ['error'],
@@ -117,10 +117,6 @@ module.exports = {
 
     'react/self-closing-comp': 'error',
 
-    "react/jsx-tag-spacing": [1, {
-      "beforeSelfClosing": "always"
-    }],
-
     'react/sort-comp': ['error', {
       order: [
         'type-annotations',
@@ -131,7 +127,7 @@ module.exports = {
         'everything-else',
         '/^render.+$/',
         'render'
-      ],
+      ]
     }],
 
     'react/jsx-wrap-multilines': ['error', {
@@ -149,7 +145,7 @@ module.exports = {
 
     'react/jsx-no-target-blank': 'error',
 
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
 
     'react/jsx-no-comment-textnodes': 'error',
 
@@ -161,14 +157,14 @@ module.exports = {
 
     'react/forbid-component-props': ['off', { forbid: [] }],
 
-    'react/forbid-elements': ['off', { forbid: [], }],
+    'react/forbid-elements': ['off', { forbid: [] }],
 
     'react/no-danger-with-children': 'error',
 
     'react/no-unused-prop-types': ['error', {
       customValidators: [
       ],
-      skipShapeProps: false,
+      skipShapeProps: false
     }],
 
     'react/style-prop-object': 'error',
@@ -181,6 +177,6 @@ module.exports = {
       closingSlash: 'never',
       beforeSelfClosing: 'always',
       afterOpening: 'never'
-    }],
+    }]
   }
 };
