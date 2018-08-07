@@ -1,5 +1,5 @@
 // Extends individual components
-var merge = require('lodash.merge');
+const merge = require('lodash.merge');
 
 module.exports = merge({},
   require('./rules/best_practices'),

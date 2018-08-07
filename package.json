@@ -1,21 +1,21 @@
 {
   "name": "@dialexa/eslint-config-dialexa",
-  "version": "4.1.1",
+  "version": "5.3.0",
   "description": "Dialexa's ESLint Config",
   "main": "index.js",
   "dependencies": {
     "lodash.merge": "~4.6.0"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.5.0",
-    "eslint-plugin-react": "^7.3.0"
-  },
-  "peerDependencies": {
-    "eslint": "^3.17.1 || ^4.4.1"
+    "babel-eslint": "~8.2.6",
+    "eslint": "~5.3.0",
+    "eslint-plugin-react": "~7.10.0"
   },
   "scripts": {
-    "test-lint": "eslint *.js"
+    "test-lint": "node_modules/.bin/eslint ."
+  },
+  "engines": {
+    "node": ">= 6.4"
   },
   "keywords": [
     "eslint-config-dialexa",

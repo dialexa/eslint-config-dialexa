@@ -58,7 +58,7 @@ module.exports = {
     'space-unary-ops': 0,
     'spaced-comment': [2, 'always', {
       'exceptions': ['-', '+'],
-      'markers': ['=', '!']           // pace here to support sprockets directives
+      'markers': ['=', '!'] // pace here to support sprockets directives
     }],
     'wrap-regex': 0
   }
